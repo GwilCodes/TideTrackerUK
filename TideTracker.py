@@ -26,7 +26,7 @@ import pandas as pd
 import pytz
 
 sys.path.append('lib')
-from waveshare_epd import epd5in83_V2
+from lib.waveshare_epd import epd5in83_V2
 from PIL import Image, ImageDraw, ImageFont
 
 picdir = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'images')
