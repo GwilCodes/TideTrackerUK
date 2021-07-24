@@ -1,0 +1,17 @@
+# Optional, displayed on top left
+location = 'London'
+
+# For weather data
+# Create Account on openweathermap.com and get API key
+weather_api_key = ''
+
+# Create Account on admiralty.co.uk and get API key
+tide_api_key = ''
+
+# Admiralty tides API station ID
+tide_station = '0001'
+
+# Get LATITUDE and LONGITUDE of location
+latitude = '39.158169'
+longitude = '-75.524368'
+units = 'metric'
