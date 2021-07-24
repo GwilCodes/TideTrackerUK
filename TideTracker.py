@@ -11,6 +11,7 @@
 ****************************************************************
 '''
 
+import config
 import sys
 import os
 import time
@@ -41,22 +42,22 @@ Location specific info required
 '''
 
 # Optional, displayed on top left
-LOCATION = 'Watchet'
+LOCATION = config.location
 
 # For weather data
 # Create Account on openweathermap.com and get API key
-API_KEY = ''
+API_KEY = config.weather_api_key
 
 # Create Account on admiralty.co.uk and get API key
-TIDE_API_KEY = ''
+TIDE_API_KEY = config.tide_api_key
 
 # Admiralty tides API station ID
-TIDE_STATION = '0531'
+TIDE_STATION = config.tide_station
 
 # Get LATITUDE and LONGITUDE of location
-LATITUDE = '51.179890'
-LONGITUDE = '-3.330670'
-UNITS = 'metric'
+LATITUDE = config.latitude
+LONGITUDE = config.longitude
+UNITS = config.units
 
 # Create URL for API call
 BASE_URL = 'http://api.openweathermap.org/data/2.5/onecall?'
